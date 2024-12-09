@@ -17,7 +17,7 @@ windowMain.title("PHANTASM")
 
 #Sounds
 global mainScreenMusic
-mainScreenMusic = "mainMusic.wav"
+mainScreenMusic = "menuMusic.wav"
 pygame.mixer.music.load(mainScreenMusic) #loads long audios into pygame music player and makes it playable
 pygame.mixer.music.play(loops=-1)#makes the music loaded into mixer loop
 click_sound = pygame.mixer.Sound("button_click.wav")#using pygame, makes a sound object that can be then played, stopped, etc
